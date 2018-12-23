@@ -1,8 +1,53 @@
+/**
+
+h1 { font-family: "Nova Cut"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+h3 { font-family: "Nova Cut"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p { font-family: "Nova Cut"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: "Nova Cut"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: "Nova Cut"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+**/
+
 header {
-    background-color: blue;
+    background-color: rgb(56, 56, 185, 0.2);
+    width: 100%;
+    
 }
 
 body{
-    background-color: aqua;
+    margin: 0%;
 }
 
+#titleName{
+    font-family: "Nova Square";
+    color: rgb(230, 230, 230);
+    opacity: 1;
+    padding-top: 10;
+    padding-bottom: 10;
+    text-align: center;
+    height: 100%;
+    background-color: grey;
+   
+}
+
+/* NAV BAR */
+
+#nav{
+    width: 100%;
+    height: 5%;
+}
+.navButton{
+    font-family: "Nova Square";
+    background-color: rgb(20, 20, 20);
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: 110%;
+   
+}
+.navButton:hover{
+    background-color: brown;
+}
